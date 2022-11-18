@@ -42,13 +42,9 @@ mystyle = '''
     </style>
     '''
 st.markdown(mystyle, unsafe_allow_html=True)
-
-st.markdown("""
-#### ***Para referenciar este material:*** """)
-st.warning("IGARASHI, Massaki de O. LINGUAGENS DE PROGRAMAÇÃO. Campinas - SP, 2022, v.1 01 de agosto de 2022. Disponível em: [link](endereço).")
-    
-task1 = st.selectbox("👈 Selecione a linguagem desejada:",
-                    ["Linguagem de Programação C++"])                                  
+ 
+task1 = st.selectbox("👈 Selecione a opção desejada:",
+                    ["Opção 01"])                                  
 
 if task1 == "Linguagem de Programação C++": 
     st.header('CAP 01')
