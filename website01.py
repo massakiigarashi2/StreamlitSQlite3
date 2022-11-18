@@ -21,4 +21,4 @@ result = mycursor.fetchall()
 # Printing all records or rows from the table.
 # It returns a result set.
 for all in result:
-st.info(all)
+  st.info(all)
