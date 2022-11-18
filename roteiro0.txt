@@ -1,7 +1,0 @@
-cd MCK2.1 - LP22\website
-
-streamlit run website01.py
-
-
-
-!pip install -q streamlit
